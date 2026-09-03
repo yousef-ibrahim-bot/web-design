@@ -1,0 +1,397 @@
+
+.register-section{
+    padding:60px 0;
+    background:#fff;
+
+}
+
+.register-card{
+    width:1200px;
+    min-height:720px;
+    margin:auto;
+    display:flex;
+    border-radius:25px;
+    overflow:hidden;
+    background:white;
+    box-shadow:0 15px 40px rgba(0,0,0,.08);
+}
+
+
+.register-left{
+    width:40%;
+    background:#3154a5;
+    color:white;
+    padding:80px 45px;
+    position:relative;
+}
+
+
+
+.register-icon{
+    width:80px;
+    height:80px;
+    border-radius:18px;
+    background:rgba(255,255,255,.2);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:35px;
+    margin-bottom:45px;
+}
+
+
+
+.register-left h1{
+    font-size:40px;
+    font-weight:700;
+    margin-bottom:20px;
+}
+
+
+.register-left p{
+    font-size:18px;
+    line-height:1.7;
+    color:#e7ecff;
+}
+
+
+
+.register-left ul{
+
+    list-style:none;
+
+    padding:0;
+
+    margin-top:55px;
+
+}
+
+
+
+.register-left li{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:15px;
+
+    margin-bottom:30px;
+
+    font-size:17px;
+
+}
+
+
+
+.register-left li i{
+    font-size:20px;
+}
+
+
+.register-right{
+
+    width:60%;
+
+    padding:55px;
+
+}
+
+
+
+.register-right h2{
+
+    font-size:35px;
+
+    font-weight:700;
+
+    margin-bottom:10px;
+
+}
+
+
+.login-text{
+    color:#999;
+    margin-bottom:30px;
+}
+
+
+
+.login-text a{
+    color:#3154a5;
+    text-decoration:none;
+    font-weight:700;
+}
+
+
+
+.social-buttons{
+
+    display:flex;
+
+    gap:15px;
+
+    margin-bottom:30px;
+
+}
+
+
+
+.social-buttons button{
+
+    flex:1;
+
+    height:55px;
+
+    border:2px solid #eee;
+
+    background:white;
+
+    border-radius:12px;
+
+    font-size:22px;
+
+    cursor:pointer;
+
+}
+
+
+
+.social-buttons button:hover{
+
+    border-color:#3154a5;
+
+    color:#3154a5;
+
+}
+
+
+.divider{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:15px;
+
+    color:#999;
+
+    font-size:13px;
+
+    margin-bottom:30px;
+
+}
+
+
+
+.divider::before,
+.divider::after{
+
+    content:"";
+
+    height:1px;
+
+    background:#ddd;
+
+    flex:1;
+
+}
+
+.input-box{
+
+    height:60px;
+
+    border:2px solid #e5e5e5;
+
+    border-radius:14px;
+
+    display:flex;
+
+    align-items:center;
+
+    gap:15px;
+
+    padding:0 20px;
+
+    margin-bottom:18px;
+
+    transition:.3s;
+
+}
+
+
+
+.input-box:focus-within{
+
+    border-color:#3154a5;
+
+}
+
+
+
+.input-box i{
+
+    color:#aaa;
+
+}
+
+
+
+.input-box input,
+.input-box select{
+
+    border:none;
+
+    outline:none;
+
+    width:100%;
+
+    font-size:16px;
+
+    background:white;
+
+}
+
+
+
+
+
+
+.password-row{
+
+    display:flex;
+
+    gap:15px;
+
+}
+
+
+
+.password-row .input-box{
+
+    width:50%;
+
+}
+
+
+.check{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    margin:18px 0;
+
+    color:#777;
+
+    font-size:14px;
+
+}
+
+
+
+.check input{
+
+    width:20px;
+
+    height:20px;
+
+}
+
+
+
+.check a{
+
+    color:#3154a5;
+
+    font-weight:700;
+
+    text-decoration:none;
+
+}
+
+.register-btn{
+
+    width:100%;
+
+    height:60px;
+
+    margin-top:15px;
+
+    border:none;
+
+    border-radius:12px;
+
+    background:#3154a5;
+
+    color:white;
+
+    font-size:18px;
+
+    font-weight:700;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+
+
+.register-btn:hover{
+
+    background:#254487;
+
+}
+
+
+
+
+#registerMessage{
+
+    text-align:center;
+
+    margin-top:15px;
+
+    font-weight:600;
+
+}
+
+
+@media(max-width:1000px){
+
+
+.register-card{
+
+    width:90%;
+
+    flex-direction:column;
+
+}
+
+
+.register-left,
+.register-right{
+
+    width:100%;
+
+}
+
+
+.password-row{
+
+    flex-direction:column;
+
+}
+
+
+.password-row .input-box{
+
+    width:100%;
+
+}
+
+
+}

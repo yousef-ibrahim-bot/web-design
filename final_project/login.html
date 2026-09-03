@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/login.css">
+</head>
+<body>
+    <header class="login-header">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center">
+                <h2 class="logo">
+                    Login
+                </h2>
+                <div class="breadcrumb">
+                    <a href="index.html">
+                        Home
+                    </a>
+                    <span>
+                        /
+                    </span>
+                    <span>
+                        Login
+                    </span>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="login-section">
+        <div class="login-card">
+            <h1>
+                Welcome Back
+            </h1>
+            <p class="subtitle">
+                Sign in to your account
+            </p>
+            <form id="loginForm">
+                <div class="input-wrapper">
+                    <i class="fa-regular fa-envelope"></i>
+                    <input type="email" id="email" placeholder="Email address">
+                </div>
+                <div class="password-wrapper">
+                    <i class="fa-solid fa-lock lock-icon"></i>
+                    <input type="password" id="password" placeholder="Password">
+                    <i class="fa-regular fa-eye" id="togglePassword">
+                    </i>
+                </div>
+                <div class="login-options">
+                    <label>
+                        <input type="checkbox" id="rememberMe">
+                        <span>
+                            Remember me
+                        </span>
+                    </label>
+                    <a href="forgot-password.html">
+                        Forgot password?
+                    </a>
+                </div>
+                <button type="submit" class="login-btn">
+                    Sign In
+                    <span>
+                        →
+                    </span>
+                </button>
+                <p id="errorMessage"></p>
+                <div class="divider">
+                    <span>
+                        OR
+                    </span>
+                </div>
+                <button type="button" class="google-btn">
+                    <i class="fa-brands fa-google"></i>
+                    Continue with Google
+                </button>
+                <p class="create-account">
+                    Don't have an account?
+                    <a href="register.html">
+                        Create account
+                    </a>
+                </p>
+            </form>
+        </div>
+    </section>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+
+</html>
